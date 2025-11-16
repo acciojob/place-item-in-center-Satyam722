@@ -1,2 +1,19 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 
-/* Your CSS Code here. */
+.holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.item {
+    padding: 20px;
+    background-color: lightblue;
+    font-size: 20px;
+    border-radius: 8px;
+}
